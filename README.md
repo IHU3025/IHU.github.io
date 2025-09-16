@@ -1,2 +1,2 @@
-# isabellahu.github.io
+# IHU.github.io
 Personal website
