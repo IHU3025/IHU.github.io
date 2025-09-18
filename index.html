@@ -80,11 +80,13 @@
         .tab-content {
             display: none;
             animation: fadeIn 0.5s;
+            margin-top: 20px;
+
         }
         
         .tab-content.active {
             display: block;
-            margin-top: 10px;
+            margin-top: 20px;
         }
         
         @keyframes fadeIn {
@@ -447,29 +449,42 @@
         <!-- Projects Tab -->
         <section id="projects" class="tab-content">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>2D rasterization pipeline</h3>
-                <p>2D rasterization pipeline for rendering SVGs, featuring triangle testing, supersampling antialiasing, 2D transformations, and barycentric color interpolation.</p>
+             <div class="project">
+                <h3>Prokudin-Gorskii Image Alignment Project</h3>
+                <p> Using algorithm aligning the RGB channels from Sergei Prokudin-Gorskii's monochromatic glass plate images to recreate the original colored photographs. </p>
                 <div class="pdf-preview">
-                    <iframe src="https://ihu3025.github.io/IHU.github.io/docs/hw1_2html.pdf#page=1" width="100%" height="300px"></iframe>
+                    <iframe src="https://ihu3025.github.io/proj1/web/index.html" width="100%" height="300px"></iframe>
                 </div>
-                <a href="https://ihu3025.github.io/IHU.github.io/docs/hw1_2html.pdf" class="pdf-download"> Open Project PDF</a>
+                <!-- <a href="https://ihu3025.github.io/IHU.github.io/docs/hw1_2html.pdf" class="pdf-download"> Open Project PDF</a> -->
+            </div>
+              <div class="project">
+                <h3>Physically-Based Path Tracer with Global Illumination</h3>
+                <p>Built a physically-based renderer that simulates global illumination through path tracing, utilizing a BVH for ray intersection acceleration and importance sampling for direct lighting.</p>
+                <div class="pdf-preview">
+                    <iframe src="https://lapluma430.github.io/cs184hw_website/hw3/index.html" width="100%" height="300px"></iframe>
+                </div>
             </div>
             <div class="project">
-                <h3>E-Commerce Website</h3>
-                <p>Full-stack e-commerce platform with React frontend and Node.js backend. Includes user authentication and payment processing.</p>
+                <h3>Geometry Processing & Mesh Subdivision</h3>
+                <p>Implemented de Casteljau's algorithm for Bézier surfaces and developed mesh topology operations like edge flipping and Loop subdivision for 3D modeling.</p>
                 <div class="pdf-preview">
-                    [PDF Preview Placeholder - Would display first page of project documentation]
+                    <iframe src="https://lapluma430.github.io/cs184hw_website/hw2/index.html" width="100%" height="300px"></iframe>
                 </div>
-                <a href="#" class="pdf-download"><i class="fas fa-download"></i> Download Project PDF</a>
             </div>
             <div class="project">
-                <h3>Mobile Health Tracking App</h3>
-                <p>iOS and Android app for tracking health metrics with data visualization features. Built with React Native.</p>
+                <h3>2D Rasterization Rendering Pipeline</h3>
+                <p>Built a SVG rendering pipeline from the ground up, implementing triangle rasterization, antialiasing, transformations, and advanced texture mapping with mipmapping.</p>
                 <div class="pdf-preview">
-                    [PDF Preview Placeholder - Would display first page of project documentation]
+                    <iframe src="https://ihu3025.github.io/IHU.github.io/docs/CS184hw1.pdf#page=2" width="100%" height="300px"></iframe>
                 </div>
-                <a href="#" class="pdf-download"><i class="fas fa-download"></i> Download Project PDF</a>
+                <!-- <a href="https://ihu3025.github.io/IHU.github.io/docs/hw1_2html.pdf" class="pdf-download"> Open Project PDF</a> -->
+            </div>
+            <div class="project">
+                <h3>Soap Bubble Simulation with Thin-Film Interference</h3>
+                <p>The simulation models the fluid dynamics and iridescent appearance of soap bubbles by implementing a thin-film interference model to accurately capture their unique visual properties.</p>
+                <div class="pdf-preview">
+                    <iframe src="https://carlsxh.github.io/CS184/finalproject/deliverable/index.html" width="100%" height="300px"></iframe>
+                </div>
             </div>
         </section>
 
@@ -480,13 +495,13 @@
                 <div class="art-platform">
                     <i class="fas fa-paint-brush"></i>
                     <h3>Art Website</h3>
-                    <p>Check out my full art portfolio on my dedicated art website.</p>
-                    <a href="#" class="art-link">Visit Art Website</a>
+                    <!-- <p>Check out my full art portfolio on my dedicated art website.</p> -->
+                    <a href="isabellahu3025.wixsite.com/portfolio" class="art-link">Visit Art Website</a>
                 </div>
                 <div class="art-platform">
                     <i class="fab fa-instagram"></i>
-                    <h3>Instagram</h3>
-                    <p>Follow me on Instagram for my latest artwork and creative projects.</p>
+                    <h3>Art Instagram Account</h3>
+                    <!-- <p>Art Instagram Account</p> -->
                     <a href="#" class="art-link">Follow on Instagram</a>
                 </div>
             </div>
@@ -499,9 +514,9 @@
             <div class="footer-links">
                 <a href="#">Home</a>
                 <a href="#">Contact</a>
-                <a href="#">Privacy Policy</a>
+                <!-- <a href="#">Privacy Policy</a> -->
             </div>
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <!-- <p>&copy; 2025 I. All rights reserved.</p> -->
         </div>
     </footer>
 
